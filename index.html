@@ -3,30 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub 페이지 메뉴 아이콘</title>
+    <title>작업물 소개</title>
     <style>
-        /* 검정색 배경 설정 */
         body {
-            background-color: black; /* 검정색으로 설정 */
-            margin: 0; /* body의 기본 마진을 제거합니다. */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
         }
-
-        /* 메뉴 아이콘 스타일 */
-        .menu-icon {
-            position: fixed; /* 화면에 고정 */
-            top: 20px; /* 상단 여백 설정 */
-            left: 20px; /* 왼쪽 여백 설정 */
-            width: 50px; /* 너비 설정 */
-            height: 50px; /* 높이 설정 */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        .work {
+            margin-bottom: 40px;
+        }
+        .work img {
+            max-width: 100%;
+            height: auto;
         }
     </style>
 </head>
 <body>
-    <!-- 메뉴 아이콘 -->
-    <img src="menu-icon" src="C:\Users\d\Downloads\menu (3).png" alt="메뉴 아이콘">
-
-    <!-- 내용을 여기에 추가하세요 -->
-    <h1>GitHub 페이지 메뉴 아이콘 예제</h1>
-    <p>메뉴 아이콘이 왼쪽 상단에 표시됩니다.</p>
+    <header>
+        <h1>내 작업물 소개</h1>
+    </header>
+    <section>
+        <div class="work">
+            <h2>작업물 제목 1</h2>
+            <p>작업물 1에 대한 간단한 설명</p>
+            <img src="작업물1.jpg" alt="작업물 1">
+        </div>
+        <div class="work">
+            <h2>작업물 제목 2</h2>
+            <p>작업물 2에 대한 간단한 설명</p>
+            <img src="작업물2.jpg" alt="작업물 2">
+        </div>
+        <!-- 필요한 만큼 작업물을 추가할 수 있습니다 -->
+    </section>
 </body>
 </html>
